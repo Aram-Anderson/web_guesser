@@ -1,8 +1,12 @@
 <html>
   <head></head>
-  <body>
+  <body style="background-color:<%= color %>">
     <p>
-      The secret number is <%= num %>
+    <%= message %>
     </p>
+    <form>
+      <input type="text" name="guess">
+      <input type="submit" value="Guess!">
+    </form>
   </body>
 </html>
